@@ -1,4 +1,3 @@
-
 package FolderLock;
 
 import java.awt.*;
@@ -12,6 +11,7 @@ import javax.swing.border.EmptyBorder;
  *
  * @author Jamshed Azhar
  */
+ 
 public class FolderLock extends  javax.swing.JFrame {    
  private JPanel gui;
  static final String regNeo="\"HKLM\\SOFTWARE\\NEO SOFTWARE\\NEO LOCK\"";
