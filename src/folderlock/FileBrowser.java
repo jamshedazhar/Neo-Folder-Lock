@@ -1,4 +1,3 @@
-
 package FolderLock;
 
 import java.awt.*;
@@ -36,6 +35,7 @@ public class FileBrowser {
     } 
     void changeIc(int j,File f){
     try {
+        
             String f1=f.getAbsolutePath()+"\\DESKTOP.INI";
             Runtime.getRuntime().exec("CMD /C ECHO [.SHELLCLASSINFO] >\""+f1+"\"");
             Runtime.getRuntime().exec("CMD /C ECHO ICONFILE=%SYSTEMROOT%\\SYSTEM32\\SHELL32.DLL,"+j+">>\""+f1+"\"");
